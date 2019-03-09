@@ -1,0 +1,35 @@
+{
+  "name": "linasvainoras.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "babel-loader": "^8.0.5",
+    "css-loader": "^2.1.1",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.1"
+  },
+  "scripts": {
+    "build": "webpack",
+    "build:prod": "webpack -p",
+    "start": "node server.js",
+    "dev": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linasvainoras/linasvainoras.github.io.git"
+  },
+  "author": "Linas Vainoras",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/linasvainoras/linasvainoras.github.io/issues"
+  },
+  "homepage": "https://github.com/linasvainoras/linasvainoras.github.io#readme"
+}
