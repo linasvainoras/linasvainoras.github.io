@@ -1,5 +1,14 @@
 @import url("https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou");
 
+body,html {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "ZCOOL QingKe HuangYou", sans-serif;
   background-color: #1c1c1c;
@@ -102,7 +111,6 @@ body {
   }
 
   .textarea, .email {
-    box-sizing: border-box;
     display: none;
     background: transparent;
     color: #f4f4f4;
