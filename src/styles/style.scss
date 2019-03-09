@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou");
 
 body {
-  font-family: "ZCOOL QingKe HuangYou", cursive;
+  font-family: "ZCOOL QingKe HuangYou", sans-serif;
   background-color: #1c1c1c;
   color: #f4f4f4;
   font-size: 22px;
@@ -20,15 +20,38 @@ body {
     h2 {
       text-align: center;
     }
+
+    h1 {
+      font-size: 4em;
+      margin-bottom: 0;
+    }
+
+    .linkedin {
+      display: block;
+      margin-top: 1em;
+      fill: #f4f4f4;
+      text-align: center;
+      font-size: 2em;
+      transition: 0.3s;
+      cursor: pointer;
+
+      &:hover {
+        transform: scale(1.2);
+      }
+    }
   }
 }
 
 .button.typing {
+
   width: 100%;
 
+  &:hover {
+    background: transparent;
+  }
+
   .heading {
-    text-align: left;
-    padding: 0 0 1em 1em;
+    display: none;
   }
 
   .hint {
@@ -36,6 +59,15 @@ body {
   }
 
   .textarea {
+    display: block;
+  }
+
+  .formLabel {
+    text-align: left;
+    display: block;
+  }
+
+  .email {
     display: block;
   }
 }
@@ -51,7 +83,7 @@ body {
   padding: 1em;
   cursor: pointer;
   transition: 0.3s;
-  border-radius: 0.1em;
+  border-radius: 0.3em;
   width: 7em;
   text-align: center;
 
@@ -69,7 +101,8 @@ body {
     font-size: 0.7em;
   }
 
-  .textarea {
+  .textarea, .email {
+    box-sizing: border-box;
     display: none;
     background: transparent;
     color: #f4f4f4;
@@ -77,8 +110,20 @@ body {
     resize: none;
     outline: none;
     outline-color: #008cff;
-    width: 90%;
+    width: 100%;
     padding: 1em;
     margin: 0 auto;
+    border-radius: 0.3em;
+
+  }
+
+  
+
+  .formLabel {
+    display: none;
+  }
+
+  .email {
+    display: none;
   }
 }
