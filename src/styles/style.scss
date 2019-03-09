@@ -35,10 +35,98 @@ body {
   cursor: pointer;
   transition: 0.3s;
   border-radius: 0.1em;
+  width: 7em;
+  text-align: center;
 
   &:hover {
     color: #f4f4f4;
     background-color: #008cff;
+  }
+
+  &__heading {
+    text-align: center;
+
+    &.typing {
+      text-align: left;
+    }
+  }
+
+
+  &.typing {
+    width: 100%;
+  }
+
+  &__hint {
+    color: #d8d8d8;
+    font-size: 0.7em;
+
+    &.typing {
+      display: none;
+    }
+  }
+
+}
+
+.container__content__button {
+  font-family: "ZCOOL QingKe HuangYou", cursive;
+  font-size: 1em;
+  display: block;
+  margin: 0 auto;
+  border: 1px solid #008cff;
+  background: transparent;
+  color: #008cff;
+  padding: 1em;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 0.1em;
+  width: 7em;
+  text-align: center;
+
+  &:hover {
+    color: #f4f4f4;
+    background-color: #008cff;
+  }
+
+  &__heading {
+    text-align: center;
+
+    &.typing {
+      text-align: left;
+      padding: 0 0 1em 1em;
+    }
+  }
+
+
+  &.typing {
+    width: 100%;
+  }
+
+  &__hint {
+    color: #d8d8d8;
+    font-size: 0.7em;
+
+    &.typing {
+      display: none;
+    }
+  }
+
+}
+
+.container__content__button__textarea {
+
+  display: none;
+  background: transparent;
+  color: #f4f4f4;
+  border: 0;
+  resize: none;
+  outline: none;
+  outline-color: #008cff;
+  width: 90%;
+  padding: 1em;
+  margin: 0 auto;
+
+  &.typing {
+    display: block;
   }
 
 }
