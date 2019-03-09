@@ -1,5 +1,5 @@
 #!/bin/bash
-npm run build:prod
+webpack -p
 git add bundle.js
 git commit -m "build"
 git push
