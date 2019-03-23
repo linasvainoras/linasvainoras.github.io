@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou");
 
-body,html {
+body,
+html {
   margin: 0;
   padding: 0;
 }
@@ -49,93 +50,4 @@ body {
       }
     }
   }
-}
-
-.button.typing {
-
-  width: 100%;
-
-  &:hover {
-    background: transparent;
-  }
-
-  .heading {
-    display: none;
-  }
-
-  .hint {
-    display: none;
-  }
-
-  form {
-    display: block;
-  }
-
-}
-
-.button {
-  font-family: "ZCOOL QingKe HuangYou", cursive;
-  font-size: 1em;
-  display: block;
-  margin: 0 auto;
-  border: 1px solid #008cff;
-  background: transparent;
-  color: #008cff;
-  padding: 1em;
-  cursor: pointer;
-  transition: 0.3s;
-  border-radius: 0.3em;
-  width: 7em;
-  text-align: center;
-
-  &:hover {
-    color: #f4f4f4;
-    background-color: #008cff;
-  }
-
-  .heading {
-    text-align: center;
-  }
-
-  .hint {
-    color: #d8d8d8;
-    font-size: 0.7em;
-  }
-
-  .textarea, .email {
-    background: transparent;
-    color: #f4f4f4;
-    border: 0;
-    resize: none;
-    outline: none;
-    outline-color: #008cff;
-    width: 100%;
-    padding: 1em;
-    margin: 0 auto;
-    border-radius: 0.3em;
-
-  }
-
-  form {
-    display: none;
-  }
-  
-  .submit {
-    background: transparent;
-    border: 1px solid #008cff;
-    color: #008cff;
-    padding: 1em;
-    cursor: pointer;
-    border-radius: 0.3em;
-
-    &:hover {
-      color: #f4f4f4;
-      background-color: #008cff;
-    }
-  }
-
-  .formLabel {
-    text-align: left;
-  }
-
 }
